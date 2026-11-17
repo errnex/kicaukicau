@@ -1,5 +1,53 @@
 [
   {
+    "id": "bug-hunter-skill-6",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "contract auditor + exploit investigator",
+    "github": "https://github.com/DarkNavySecurity/web3-skills",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-5",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "dari 2.749 laporan Immunefi",
+    "github": "https://github.com/awarexone/web3-bug-bounty-hunting-ai-skills",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-4",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "audit smart contract, 52 skill",
+    "github": "https://github.com/omermaksutii/RugProof",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-3",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "checklist audit EVM 500+ item",
+    "github": "https://github.com/austintgriffith/evm-audit-skills",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-2",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "audit smart contract (reentrancy, oracle, proxy, signature replay)",
+    "github": "https://github.com/quillai-network/quillshield_skills",
+    "prompt": "ke repo langsung"
+  },
+  {
+    "id": "bug-hunter-skill",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "audit-grade Trail of Bits, ~99 skill (fuzzing, triage, review)",
+    "github": "https://github.com/trailofbits/skills",
+    "prompt": "ke repo aja"
+  },
+  {
     "id": "auto-clip",
     "title": "Auto Clip",
     "category": "Clipper",
