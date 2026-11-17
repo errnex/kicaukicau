@@ -1,5 +1,13 @@
 [
   {
+    "id": "meme-solana-trading-agent",
+    "title": "Meme Solana Trading Agent",
+    "category": "Trading",
+    "description": "Telegram intelligence + real trading agent untuk meme coin Solana berbasis data real-time. Trading dilakukan manual melalui command Telegram",
+    "github": "https://github.com/errnex/auto-sol",
+    "prompt": "ke repo aja"
+  },
+  {
     "id": "bug-hunter-skill-22",
     "title": "Bug Hunter Skill",
     "category": "Bug Hunter",
