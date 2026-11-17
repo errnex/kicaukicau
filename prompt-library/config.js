@@ -6,7 +6,7 @@ window.PROMPTLIB_CONFIG = {
   ADMIN_PIN: "admin123",
 
   // Repo GitHub tempat prompts.json tinggal.
-  // Buat repo baru (misal: prompt-library) dan isi dengan file-file project ini.
+  // Repo Sky: kicaukicau.
   GITHUB_OWNER: "errnex",
   GITHUB_REPO: "kicaukicau",
   GITHUB_BRANCH: "main",

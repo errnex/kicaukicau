@@ -19,7 +19,6 @@
           <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
           <input id="searchInput" type="search" placeholder="Cari prompt…" autocomplete="off" />
         </label>
-        <button id="adminBtn" class="btn btn-ghost" type="button">Admin</button>
       </div>
     </header>
 
@@ -43,20 +42,8 @@
 
     <footer class="footer">
       <p>Dibuat oleh <a href="https://github.com/errnex" target="_blank" rel="noopener">sky</a> — semua prompt di sini gratis dipakai.</p>
-      <p class="footer-note">Prompt diperbarui berkala. Kalau ada yang error atau mau request, buka issue di GitHub.</p>
+      <p class="footer-note">Prompt diperbarui berkala. Kalau ada yang error atau mau request, buka issue di GitHub. <a class="footer-admin" href="admin.html">Admin</a></p>
     </footer>
-  </div>
-
-  <!-- Publish bar (admin + ada perubahan) -->
-  <div id="publishBar" class="publish-bar" hidden>
-    <p class="publish-text"><span class="dot"></span><span id="publishMsg">Ada perubahan yang belum dipublish.</span></p>
-    <div class="publish-actions">
-      <input id="ghToken" type="password" placeholder="GitHub token (opsional)" autocomplete="off" aria-label="GitHub token" />
-      <button id="publishBtn" class="btn btn-primary" type="button">Publish ke GitHub</button>
-      <button id="downloadBtn" class="btn btn-ghost" type="button">Download JSON</button>
-      <button id="copyJsonBtn" class="btn btn-ghost" type="button">Salin JSON</button>
-      <button id="discardBtn" class="btn btn-danger-ghost" type="button">Buang</button>
-    </div>
   </div>
 
   <!-- Modal: lihat prompt -->
@@ -76,68 +63,6 @@
         <button id="viewCopyBtn" class="btn btn-primary" type="button">Salin prompt</button>
         <a id="viewGhBtn" class="btn btn-ghost" href="#" target="_blank" rel="noopener">GitHub ↗</a>
       </div>
-    </div>
-  </div>
-
-  <!-- Modal: tambah / edit prompt -->
-  <div id="formModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="formTitle">
-    <div class="modal-backdrop" data-close></div>
-    <div class="modal-panel">
-      <div class="modal-head">
-        <h2 id="formTitle" class="modal-title">Tambah prompt</h2>
-        <button class="icon-btn" type="button" data-close aria-label="Tutup">✕</button>
-      </div>
-      <form id="promptForm" class="form">
-        <input type="hidden" id="fId" />
-        <label class="field">
-          <span class="field-label">Judul</span>
-          <input id="fTitle" type="text" required maxlength="80" placeholder="cth: Bug Bounty Hunter" />
-        </label>
-        <label class="field">
-          <span class="field-label">Kategori</span>
-          <input id="fCategory" type="text" required maxlength="30" placeholder="cth: Security" list="catList" />
-          <datalist id="catList"></datalist>
-        </label>
-        <label class="field">
-          <span class="field-label">Deskripsi singkat</span>
-          <input id="fDesc" type="text" required maxlength="140" placeholder="Satu kalimat: prompt ini buat apa" />
-        </label>
-        <label class="field">
-          <span class="field-label">Link GitHub <span class="field-hint">(opsional)</span></span>
-          <input id="fGithub" type="url" placeholder="https://github.com/errnex/..." />
-        </label>
-        <label class="field">
-          <span class="field-label">Isi prompt</span>
-          <textarea id="fPrompt" rows="10" required placeholder="Tulis prompt lengkapnya di sini…"></textarea>
-        </label>
-        <p id="formError" class="form-error" hidden></p>
-        <div class="modal-foot">
-          <button class="btn btn-primary" type="submit">Simpan</button>
-          <button class="btn btn-ghost" type="button" data-close>Batal</button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <!-- Modal: PIN admin -->
-  <div id="pinModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="pinTitle">
-    <div class="modal-backdrop" data-close></div>
-    <div class="modal-panel modal-panel-narrow">
-      <div class="modal-head">
-        <h2 id="pinTitle" class="modal-title">Mode admin</h2>
-        <button class="icon-btn" type="button" data-close aria-label="Tutup">✕</button>
-      </div>
-      <form id="pinForm" class="form">
-        <label class="field">
-          <span class="field-label">PIN admin</span>
-          <input id="pinInput" type="password" autocomplete="off" placeholder="••••••••" />
-        </label>
-        <p id="pinError" class="form-error" hidden>PIN salah. Coba lagi.</p>
-        <div class="modal-foot">
-          <button class="btn btn-primary" type="submit">Masuk</button>
-        </div>
-        <p class="field-hint">PIN default ada di <code>config.js</code> — ganti sebelum deploy.</p>
-      </form>
     </div>
   </div>
 
