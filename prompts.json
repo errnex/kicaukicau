@@ -1,5 +1,13 @@
 [
   {
+    "id": "jasa-hunter",
+    "title": "Jasa Hunter",
+    "category": "Jasa",
+    "description": "Use this when the user wants to find businesses on Google Maps to pitch custom app / website services",
+    "github": "https://github.com/errnex/tahu-gejrot",
+    "prompt": "cek repo"
+  },
+  {
     "id": "auto-trade-tele-bot",
     "title": "Auto Trade Tele Bot",
     "category": "Trading",
