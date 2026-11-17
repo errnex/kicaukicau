@@ -8,7 +8,7 @@ window.PROMPTLIB_CONFIG = {
   // Repo GitHub tempat prompts.json tinggal.
   // Buat repo baru (misal: prompt-library) dan isi dengan file-file project ini.
   GITHUB_OWNER: "errnex",
-  GITHUB_REPO: "prompt-library",
+  GITHUB_REPO: "kicaukicau",
   GITHUB_BRANCH: "main",
   GITHUB_PATH: "prompts.json",
 };
