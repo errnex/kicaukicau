@@ -1,5 +1,133 @@
 [
   {
+    "id": "bug-hunter-skill-22",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "scanner buat ngecek skill itu sendiri",
+    "github": "https://github.com/NVIDIA/SkillSpector",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-21",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "reverse engineering, 21 skill",
+    "github": "https://github.com/zhaoxuya520/reverse-skill",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-20",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "817 skill, ambil yang relevan aja",
+    "github": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-19",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "fuzzing, payloads, LLM testing",
+    "github": "https://github.com/Eyadkelleh/awesome-skills-security",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-18",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "triase laporan + severity",
+    "github": "https://github.com/Sequester-AG/bug-bounty-triage",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-17",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "recon eksternal buat bounty",
+    "github": "https://github.com/elementalsouls/Claude-OSINT",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-16",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "workflow SRC/bug bounty, 19 playbook + 305 payload",
+    "github": "https://github.com/MyuriKanao/src-hunter-skill",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-15",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "playbook pentest Kali",
+    "github": "https://github.com/x-glacier/kali-pentest",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-14",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "web + network pentest (OWASP WSTG)",
+    "github": "https://github.com/hassan-algo/open-sesame",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-13",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "Linux/Windows/macOS privesc",
+    "github": "https://github.com/snowflakeovo/privilege-escalation-skills",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-12",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "exploit dev, heap exploit",
+    "github": "https://github.com/dcbz/exploit_skillz",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-11",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "21 skill kelas vuln + report writing",
+    "github": "https://github.com/ByamB4/find-cve-agent",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-10",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "workflow pentest/bounty (HackerOne, recon, API security)",
+    "github": "https://github.com/transilienceai/communitytools",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-9",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "library offensive, 66+ skill (privesc, SSRF/RCE/XSS, exploit dev)",
+    "github": "https://github.com/SnailSploit/Claude-Red",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-8",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "invariant discovererPentest / offensive:",
+    "github": "https://github.com/Veridise/audithub-skills",
+    "prompt": "ke repo aja"
+  },
+  {
+    "id": "bug-hunter-skill-7",
+    "title": "Bug Hunter Skill",
+    "category": "Bug Hunter",
+    "description": "pipeline audit EVM (Foundry/Hardhat)",
+    "github": "https://github.com/greatpie/smart-contract-audit-skill",
+    "prompt": "ke repo aja"
+  },
+  {
     "id": "bug-hunter-skill-6",
     "title": "Bug Hunter Skill",
     "category": "Bug Hunter",
