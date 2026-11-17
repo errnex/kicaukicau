@@ -1,5 +1,13 @@
 [
   {
+    "id": "auto-trade-tele-bot",
+    "title": "Auto Trade Tele Bot",
+    "category": "Trading",
+    "description": "Solana AI Trading Bot",
+    "github": "https://github.com/errnex/sky-meteorr",
+    "prompt": "ke repo aja"
+  },
+  {
     "id": "meme-solana-trading-agent",
     "title": "Meme Solana Trading Agent",
     "category": "Trading",
