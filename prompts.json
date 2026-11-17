@@ -1,5 +1,13 @@
 [
   {
+    "id": "audit",
+    "title": "Audit",
+    "category": "Security",
+    "description": "cek cek",
+    "github": "https://github.com/cloudflare/security-audit-skill",
+    "prompt": "cek repo"
+  },
+  {
     "id": "remotion",
     "title": "Remotion",
     "category": "Agent",
