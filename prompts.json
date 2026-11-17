@@ -1,5 +1,13 @@
 [
   {
+    "id": "auto-clip",
+    "title": "Auto Clip",
+    "category": "Clipper",
+    "description": "AI Clipper Agent adalah workflow lokal untuk mengambil video YouTube, membuat transcript dengan Whisper lokal, memilih momen menarik, memoto",
+    "github": "https://github.com/errnex/auto-clip",
+    "prompt": "langsung ke repo aja"
+  },
+  {
     "id": "nft-hunter-2",
     "title": "NFT Hunter",
     "category": "NFTs",
