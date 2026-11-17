@@ -1,5 +1,13 @@
 [
   {
+    "id": "muse",
+    "title": "Muse",
+    "category": "Agent",
+    "description": "install 9R dan hermes ke muse",
+    "github": "https://github.com/errnex/ireng",
+    "prompt": "cek repo"
+  },
+  {
     "id": "jasa-hunter",
     "title": "Jasa Hunter",
     "category": "Jasa",
