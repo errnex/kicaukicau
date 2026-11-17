@@ -1,5 +1,37 @@
 [
   {
+    "id": "remotion",
+    "title": "Remotion",
+    "category": "Agent",
+    "description": "remotion",
+    "github": "https://github.com/remotion-dev/remotion",
+    "prompt": "cek repo"
+  },
+  {
+    "id": "animation",
+    "title": "Animation",
+    "category": "Agent",
+    "description": "animasi",
+    "github": "https://github.com/heygen-com/hyperframes",
+    "prompt": "cek repo"
+  },
+  {
+    "id": "mas-affan",
+    "title": "mas affan",
+    "category": "Agent",
+    "description": "no plenger",
+    "github": "https://github.com/affaan-m/ECC",
+    "prompt": "cek repo"
+  },
+  {
+    "id": "ui-ux",
+    "title": "UI/UX",
+    "category": "Agent",
+    "description": "ui/ux dash",
+    "github": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "prompt": "ke repo aja"
+  },
+  {
     "id": "muse",
     "title": "Muse",
     "category": "Agent",
