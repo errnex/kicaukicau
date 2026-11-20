@@ -1,5 +1,13 @@
 [
   {
+    "id": "bounty",
+    "title": "Bounty",
+    "category": "Agent",
+    "description": "auto bounty",
+    "github": "https://github.com/errnex/agen-dasco",
+    "prompt": "ke repo aja"
+  },
+  {
     "id": "audit",
     "title": "Audit",
     "category": "Security",
