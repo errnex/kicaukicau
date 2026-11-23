@@ -1,5 +1,13 @@
 [
   {
+    "id": "clipper",
+    "title": "Clipper",
+    "category": "Clipper",
+    "description": "mix repo",
+    "github": "https://github.com/errnex/mix-repo",
+    "prompt": "ke repo aja"
+  },
+  {
     "id": "bounty",
     "title": "Bounty",
     "category": "Agent",
